@@ -1,0 +1,38 @@
+# Node.js dependencies for frontend
+/frontend/node_modules
+/frontend/build
+
+# Python dependencies for backend
+/backend/venv/
+
+# Byte-compiled Python files
+*.pyc
+__pycache__/
+
+# Environment variables (important for security)
+*.env
+
+# IDE/Editor-specific files
+.vscode/
+.idea/
+
+# macOS-specific files
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Cache directories
+.cache/
+frontend/.next/
+backend/.pytest_cache/
+
+# Miscellaneous
+*.bak
+*.swp
+
+# Flask specific
+instance/
+__pycache__/
+
